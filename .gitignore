@@ -1,0 +1,38 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Hugging Face / model cache
+.cache/
+huggingface/
+models/
+
+# ChromaDB vector database
+data/vector_store/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Streamlit secrets
+.streamlit/secrets.toml
+"@ | Set-Content .gitignore
